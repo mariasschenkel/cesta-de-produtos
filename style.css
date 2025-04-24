@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+aside {
+    background-color: #f9f9f9;
+    width: 350px;
+    border-left: 2px solid #ddd;
+}
+
+.as-tit {
+    background-color: red;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.as-meio {
+    height: 460px;
+    overflow-y: auto;
+}
+
+.as-total {
+    bottom: 16px;
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.box {
+    background-color: white;
+    width: 200px;
+    height: 315px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+
+.box img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.text1 {
+    font-size: 16px;
+    margin-top: 8px;
+    height: 65px;
+}
+
+.preco {
+    font-size: 18px;
+    color: green;
+    margin-top: 3px;
+}
+
+.btn-adicionar {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cesta-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cesta-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.cesta-item p {
+    flex: 1;
+    padding-left: 10px;
+}
+
+.cesta-item button {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cesta-item .quantidade {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cesta-item .quantidade button {
+    padding: 5px;
+    background-color: #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
